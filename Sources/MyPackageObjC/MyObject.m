@@ -15,7 +15,7 @@
 - (NSString*)name
 {
     NameGenerator *generator = [[NameGenerator alloc] init];
-    return [NSString stringWithFormat:@"%@ %@", [generator generateFirstName], @"Ahten"];
+    return [NSString stringWithFormat:@"%@ %@", [generator generateFirstName], [generator generateLastName]];
 }
 
 @end
